@@ -2,8 +2,8 @@ import java.util.*;
 
 public class test {
     public static int[] solution(String[] genres, int[] plays) {
-        int i=0, j=0;
-        int max=0, first=-1, second=-1;
+        int i, j;
+        int max, first, second;
         //가장 많은 재생수인 장르구하기
         ArrayList<String> genre = new ArrayList<>();
         HashMap<String,Integer> map = new HashMap<>();
@@ -45,10 +45,9 @@ public class test {
     }
 
     public static void main(String[] args) {
-//        String[] genres = {"classic", "pop", "classic", "classic", "pop"};
-//        int[] plays = {500, 600, 150, 800, 2500};
-        String[] genres = {"classic","pop","classic"};
-        int[] plays = {500,600,150};
+        String[] genres = {"classic", "pop", "classic", "classic", "pop"};
+        int[] plays = {500, 600, 150, 800, 2500};
+
 
         System.out.print("[");
         for (int i = 0; i < solution(genres, plays).length; i++) {
