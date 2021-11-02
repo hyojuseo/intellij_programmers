@@ -6,7 +6,6 @@ public class FindValue {
         for(int i=0; i<arr.length; i++){
             arr[i] = (i+1)+"";
         }
-
         for(int i=0; i<arr.length; i++){
             int x = (int)(Math.random() * arr.length);
             int y = (int)(Math.random() * arr.length);
