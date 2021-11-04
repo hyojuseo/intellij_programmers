@@ -1,4 +1,4 @@
-package generic_list;
+package single_generic_list;
 
 public class GenericMain {
     //코드의 안정성을 높일 수 있다.

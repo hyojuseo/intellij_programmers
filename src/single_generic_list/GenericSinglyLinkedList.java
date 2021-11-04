@@ -1,4 +1,4 @@
-package generic_list;
+package single_generic_list;
 
 public class GenericSinglyLinkedList<T> {
     GenericNode<T> head;
