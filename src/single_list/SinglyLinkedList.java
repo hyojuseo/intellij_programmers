@@ -1,3 +1,5 @@
+package single_list;
+
 public class SinglyLinkedList{
     Node head = null;
     int size = 0;

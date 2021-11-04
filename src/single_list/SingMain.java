@@ -1,3 +1,5 @@
+package single_list;
+
 public class SingMain {
     public static void main(String[] args) {
         SinglyLinkedList list = new SinglyLinkedList();
