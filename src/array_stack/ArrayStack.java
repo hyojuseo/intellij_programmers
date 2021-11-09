@@ -1,4 +1,4 @@
-package stack;
+package array_stack;
 
 public class ArrayStack {
     private int top = -1;
