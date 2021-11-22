@@ -1,6 +1,6 @@
 package toy;
 
-public class RecursionToy {
+public class RecursionToySum {
     static int sum = 0;
 
     public static String re(int data){
